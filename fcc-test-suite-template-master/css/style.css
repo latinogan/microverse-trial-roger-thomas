@@ -19,10 +19,14 @@ title:hover{
 
 }
 
+#img-caption{
+    color: cornsilk;
+}
+
 #img-div{
     background: #3a7683;
     padding: 10px;
-    margin: 2;
+    margin: 1em;
 }
 
 #image{
