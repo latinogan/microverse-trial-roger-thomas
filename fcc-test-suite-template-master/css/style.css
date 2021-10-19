@@ -28,7 +28,7 @@ title:hover{
 #image{
     max-width: 100%;
     display: flex;
-    -ms-flex-align: center
+    -ms-flex-align: center;
     height: auto;
     margin: 0 auto;
   }
@@ -39,6 +39,7 @@ title:hover{
   #tribute-info{
       margin: 2em;
       padding: 1em;
+      text-align: start;
   }
   a{
       color: blue;
@@ -48,4 +49,15 @@ title:hover{
   }
   a:visited{
       color: rgb(0, 0, 139)
+  }
+  @media (max-width: 600px){
+    #main{
+        margin: 0 ;
+        padding: 0;
+    }
+    #image{
+        width: 50%;
+        -ms-flex-align: center;
+      }
+      
   }
