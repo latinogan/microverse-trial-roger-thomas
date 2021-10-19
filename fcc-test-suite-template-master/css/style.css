@@ -27,10 +27,9 @@ title:hover{
 
 #image{
     max-width: 100%;
-    display: flex;
-    -ms-flex-align: center;
+    display: block;
     height: auto;
-    margin: 0 auto;
+    margin: auto;
   }
   #img-div:hover{
     size:120%;
